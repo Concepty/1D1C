@@ -43,7 +43,13 @@ int main() {
     */
 
     printf("as type_B, a2->a is %d\n", ((type_B *)a2)->a);
+    /**
+     * as type_B, a2->a is 67305985
+    */
 
-    
+    printf("as type_A, b2->a is %d\n", ((type_A *)b2)->a);
+    /**
+     * as type_A, b2->a is 1
+    */
     return 0;
 }
