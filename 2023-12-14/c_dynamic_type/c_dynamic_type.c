@@ -41,5 +41,9 @@ int main() {
      * as type_A, a->a is 1
      * as type_B, a->a is 67305985
     */
+
+    printf("as type_B, a2->a is %d\n", ((type_B *)a2)->a);
+
+    
     return 0;
 }
